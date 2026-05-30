@@ -40,7 +40,7 @@ Login Succeeded
 
 # now need to tag image
 root@master:~/mydocker# docker images
-                                                                                                                                                        i Info →   U  In Use
+
 IMAGE         ID             DISK USAGE   CONTENT SIZE   EXTRA
 myjavaapp:1   a2ef4ca68dde        755MB          245MB
 
@@ -71,8 +71,8 @@ root@master:~/mydocker# docker tag myjavaapp:2 omkarsinghaws/myjavaapp:2
 root@master:~/mydocker# docker push omkarsinghaws/myjavaapp:2
 
 #Listing images
-root@master:~/mydocker# docker images
-                                                                                                                                                        i Info →   U  In Use
+#root@master:~/mydocker# docker images
+
 IMAGE                       ID             DISK USAGE   CONTENT SIZE   EXTRA
 myjavaapp:1                 a2ef4ca68dde        755MB          245MB
 myjavaapp:2                 3fb27af6e36e        755MB          245MB
